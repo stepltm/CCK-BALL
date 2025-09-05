@@ -26,7 +26,7 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&lt { quick-tap-ms = <150>; };
+&lt { quick-tap-ms = <250>; };
 
 / {
     // 上下滚动编码器行为
@@ -114,7 +114,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
